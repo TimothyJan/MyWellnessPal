@@ -1,2 +1,4 @@
-# MyWellnessPal
-CPSC 362 Software Engineering project
+# MyWellNessPals
+
+
+* This is the readme.
