@@ -50,6 +50,12 @@ a:hover{
   margin-top: 5%;
 }
 
+.bio{
+  right: 2%;
+  color: #00917c;
+}
+
+
 .floating-menu {
   font-family: 'Lobster', cursive;
   background: #a05344;
@@ -213,7 +219,6 @@ a:hover{
   margin-left: 0.32rem;
   background-color: #66BFBF;
 }
-
 .dark,
 .dark *{
   background-color: #222;
