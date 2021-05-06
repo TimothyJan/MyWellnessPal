@@ -9,7 +9,6 @@ $(".inner-switch" ).on("click", function(
       $(".inner-switch").text("ON");
     }
   });
-  
   function calories() {
     function find(id) { return document.getElementById(id) }
     var age = find("age").value,  height = find("height").value * 2.54,  weight = find("weight").value / 2.2,  result = 0
@@ -38,24 +37,4 @@ $(".inner-switch" ).on("click", function(
     else{
     alert("Please fill in everything correctly!")
       }
-    }
-    var slim = new Array('images/abs1.png','images/img1.jpg','images/img4.jpg','images/img7.jpg','images/img10.jpg');
-    var mid = new Array('images/abs2.jpg', 'images/abs4.jpg', 'images/img2.jpg','images/img5.jpg','images/img8.jpg');
-    var heavy = new Array('images/abs3.jpg', 'images/abs5.jpg','images/img3.jpg','images/img6.jpg','images/img9.jpg');
-
-    function choosePic(){
-      //random number
-      console.log("test");
-      var randomNum = Math.floor(Math.random() * 4);
-      //place image in slot
-      document.getElementById('imageloc').src = `images/abs1.png`;
-      //if (group => 0.34 || group =< 0.42){
-        //document.getElementById('imageloc').src = `${slim[randomNum]}`;
-      //}
-      //else if (group => 0.43 || group =< 0.57){
-        //document.getElementById('imageloc').src = `${mid[randomNum]}`
-      //}
-      //else if (group => 0.58 || group =< 0.63){
-        //document.getElementById('imageloc').src = `${heavy[randomNum]}`
-      //}
     }

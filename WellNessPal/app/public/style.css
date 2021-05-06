@@ -23,12 +23,6 @@ h3{
   font-family: 'Lobster', cursive;
   color: #66BFBF;
 }
-h4{
-  font-family: 'Gill Sans', cursive;
-  color: #222;
-  text-align: center;
-  font-size: 12pt;
-}
 p{
   line-height: 2;
 }
@@ -139,8 +133,6 @@ a:hover{
   padding: 0;
   margin: 0px;
 }
-
-
 }
 .top-container{
   background-color: #9dad7f;
@@ -205,16 +197,6 @@ a:hover{
   border-radius: 20%;
 }
 
-.recommended-workout-img{
-  width: 280px;
-  height: 80%;
-  float:left;
-  -transform: scale(1);  
-  border-radius: 20%;
-  margin-left: 35%;
-  margin-right: 5%;
-}
-
 .footer-link:hover{
   color: #900d0d;
   font-weight: bold;
@@ -255,7 +237,4 @@ a:hover{
 }
 .inner-switch:hover{
   background-color: #687466;
-}
-.login{
-  text-align: center;
 }
